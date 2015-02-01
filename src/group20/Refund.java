@@ -26,7 +26,7 @@ public class Refund {
         DemandeDeReclamation uneDemandeDeReclamation = new DemandeDeReclamation();
         System.out.println("Demande de reclamation vide");
         System.out.println(uneDemandeDeReclamation);
-        System.out.println();
+        System.out.println()  ;
         
         replirDemandeDeReclamation("src/group20/inputfile.json", uneDemandeDeReclamation);
         System.out.println("Demande de reclamation remplie");
